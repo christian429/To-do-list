@@ -32,6 +32,9 @@ const add = document.getElementById("add");
  var icon = document.getElementById("icon")
  icon.onclick = function (){
     document.body.classList.toggle("dark-theme")
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "icons8-moon-50.png"
+    }
  }
 
 
