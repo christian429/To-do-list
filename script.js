@@ -33,12 +33,13 @@ const add = document.getElementById("add");
  icon.onclick = function (){
     document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains("dark-theme")){
-        icon.src = "icons8-moon-50.png"}
+        icon.src = "icons8-moon-24.png"
+    }
         else{
             icon.src = "icons8-moon-30.png"
         }
     }
- }
+
 
 
     
